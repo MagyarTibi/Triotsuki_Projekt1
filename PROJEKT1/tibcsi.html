@@ -10,80 +10,139 @@
     <link rel="stylesheet" href="teszt.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-    <title>LASZLO</title>
+    <title>Sacher Torta</title>
 </head>
 
 <body>
-    <nav class="navbar">
-        <div id="trapezoid">
-           
-            <div class="subnav">
-                <button class="subnavbtn">Ábel<i class="fa fa-caret-down"></i></button>
-                <div class="subnav-content">
-                    <div id="subnav-trapezoid">
-                        <a href="abel.html">Főétel</a>
-                        <a href="abel.html">Desszert</a>
-                    </div>
-                </div>
-            </div>
+    <header>
+        <nav class="navbar">
+            <div id="trapezoid">
 
-            <div class="subnav">
-                <button class="subnavbtn">Laci<i class="fa fa-caret-down"></i></button>
-                <div class="subnav-content">
-                    <div class="subnav-trapezoid">
-                        <a href="laci.html">Főétel</a>
-                        <a href="laci.html">Desszert</a>
+                <div class="subnav">
+                    <button class="subnavbtn">Ábel<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <div id="subnav-trapezoid">
+                            <a href="abel.html">Desszert</a>
+                            <a href="abel.html">Elkészítés</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="subnav">
-                <button class="subnavbtn">Tibcsi<i class="fa fa-caret-down"></i></button>
-                <div class="subnav-content">
-                    <div class="subnav-trapezoid">
-                        <a href="#Tibcsi">Főétel</a>
-                        <a href="#Abel">Desszert</a>
+
+                <div class="subnav">
+                    <button class="subnavbtn">Laci<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <div class="subnav-trapezoid">
+                            <a href="laci.html">Desszert</a>
+                            <a href="laci.html">Elkészítés</a>
+                        </div>
                     </div>
                 </div>
+                <div class="subnav">
+                    <button class="subnavbtn">Tibcsi<i class="fa fa-caret-down"></i></button>
+                    <div class="subnav-content">
+                        <div class="subnav-trapezoid">
+                            <a href="#Tibcsi">Desszert</a>
+                            <a href="#Abel">Elkészítés</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="Navbar.html" class="expandHome">Főoldal
+                </a>
             </div>
-            <a href="Navbar.html" class="expandHome">Főoldal
-            </a>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <main class="container-fluid">
-        <section id="Tibcsi">
-            <h2>Tibcsi</h2>
-            <h1>Főétel</h1>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                no
-                sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </section>
-        <section id="Abel">
-            <h1>Desszert</h1>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-                et
-                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-                Stet
-                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-                amet,
-                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
-                erat,
-                sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                no
-                sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-        </section>
-        <script src="js/teszt.js"></script>
+        <div id="heble" class="container">
+            <section id="Tibcsi">
+                <h1>Történet</h1>
+                <hr>
+                <p>A Sacher-torta az osztrák gasztronómia és Bécs városának egyik legismertebb süteménye. Egyfajta
+                    csokoládétorta, amely két réteg sűrű, nem túl édes csokoládés piskótatésztából és a közöttük lévő
+                    vékony réteg sárgabaracklekvárból áll. A tetejét és az oldalát csokoládébevonat borítja. A híres
+                    monarchiabeli cukrászkülönlegességek egyike. Korabeli nevezetes sütemények még a dobostorta és az
+                    Esterházy-torta.
+                    <img src="Képek/sacher.jpg" alt="Sacher-torta" id="kep2">
+                    Franz Sacher bécsi cukrászról kapta a nevét, aki a városi legenda szerint 1832-ben alkotta meg
+                    Metternich herceg kérésére. Bár Sacher ekkor mindössze tizenhat éves volt, a torta azóta is az egyik
+                    legkedveltebb bécsi tortaspecialitásnak számít. A receptet fia, Eduard Sacher fejlesztette tovább,
+                    amikor Demel udvari szakácsnál volt tanonc, majd maga is vállalkozásba fogott. Ez adott okot a
+                    későbbi pereskedésekre, hogy ki készíthet eredeti Sacher-tortát. A felek peren kívüli megegyezése
+                    alapján a bécsi Hotel Sacher csokoládépecséttel ellátott fadobozos tortája lett az „Original
+                    Sacher-Torte” védjegy.
+
+                    A jelentős felvevőpiacnak köszönhetően a „sütiháború” ma már a múlté. A torta értékesítésére Cafe
+                    Sacher néven bolthálózat működik és jelentős mennyiséget szállítanak Ausztrián kívüli üzletekbe is.
+                    A Demel Kávéház is készít „Demel’s Sachertorte” néven tortát és természetesen más cukrászdákban is
+                    megtalálható az osztrákok nemzeti büszkesége, valamint házilag otthon is elkészíthető. A két
+                    legnagyobb osztrák forgalmazó közel félmillió darab Sacher-tortát értékesít évente. A torta
+                    népszerűsége mai napig töretlen, és már napja is van, amelyet december 5-én tartanak..
+                </p>
+            </section>
+        </div>
+        <div id="heble" class="container">
+            <section id="Abel">
+                <h1>Elkészítés</h1>
+                <hr>
+                <p>A vajat a porcukorral habosra keverjük, majd a kihűlt olvasztott csokit is elkeverjük a porcukros
+                    keverékkel.
+
+                    A tojásokat válasszuk szét.
+
+                    A tojássárgáját egyesével keverjük el a porcukros-csokis keverékkel.
+
+                    A tojásfehérjéből, a cukorral és vaníliás cukorral együtt kemény habot verünk, ezután óvatos
+                    mozdulatokkal összekeverjük a tojássárgás keverékkel, majd a lisztet és sütőport is belekeverjük.
+
+                    A tésztát kivajazott formában, 180 fokos légkeveréses sütőben 40-45 perc alatt készre sütjük.
+
+                    Miután a tészta kihűlt, vágjuk ketté, kenjük meg forralt baracklekvárral, a piskótalapok
+                    összeillesztése után a tetejét és oldalát is kenjük meg, és várjunk, amíg a tészta megszívja magát a
+                    lekvárral.
+
+                    Végezetül olvasztott csokival öntsük le a tortát, hogy mindenhova jusson. Miután megkötött a csoki,
+                    szeletelhetjük a tortát.</p>
+            </section>
+
+        </div>
+        <div id="heble" class="container">
+            <section id="Abel">
+                <h1>Hozzávalók</h1>
+                <hr>
+                <ul>
+                    <li>15 dkg liszt</li>
+                    <li>5 g sütőpor</li>
+                    <li>7,5 dkg porcukor</li>
+                    <li>7 g cukor</li>
+                    <li>15 dkg vaj</li>
+                    <li>15 dkg étcsokoládé</li>
+                    <li>6 darab tojás</li>
+                    <li>8 g vaníliás cukor</li>
+                    <li>15 dkg baracklekvár</li>
+                </ul>
+
+              
+            </section>
+        </div>
 
     </main>
+
+    <footer style="display: block;">
+        <p>
+            <span>&copy</span>
+            <span>T</span>
+            <span>r</span>
+            <span>i</span>
+            <span>o</span>
+            <span>T</span>
+            <span>s</span>
+            <span>u</span>
+            <span>k</span>
+            <span>i</span>
+        </p>
+        <script src="js/teszt.js"></script>
+    </footer>
+
+
 </body>
 
 </html>
